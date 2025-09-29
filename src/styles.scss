@@ -12,3 +12,8 @@ app-root {
   width: 100vw;
   background-color: white;
 }
+
+input:focus {
+    outline: none;
+    border: none;
+}
