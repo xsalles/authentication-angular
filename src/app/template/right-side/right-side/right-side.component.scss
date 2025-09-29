@@ -1,0 +1,11 @@
+.right-side {
+    background-image: url('/assets/images/Right-Side.png');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
