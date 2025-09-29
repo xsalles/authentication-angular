@@ -1,0 +1,13 @@
+.input-password-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 300px;
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #333;
+    }
+}

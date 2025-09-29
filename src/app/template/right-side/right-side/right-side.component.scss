@@ -1,11 +1,18 @@
-.right-side {
-    background-image: url('/assets/images/Right-Side.png');
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-    height: 100vh;
+.right-side-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #FB5353, #F30606);
+  height: 100%;
+  width: 50vw;
 
-    @media (max-width: 1200px) {
-        display: none;
-    }
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+    
+  }
 }
