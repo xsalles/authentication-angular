@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
+
+
 
 app-root {
   display: flex;
@@ -14,6 +16,11 @@ app-root {
 }
 
 input:focus {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }

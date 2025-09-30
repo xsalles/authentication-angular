@@ -1,0 +1,35 @@
+.container {
+  width: 50;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+      color: #000;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      color: #000;
+
+      a {
+        color: #f41313;
+        text-decoration: underline;
+      }
+    }
+  }
+}

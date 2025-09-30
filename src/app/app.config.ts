@@ -12,11 +12,6 @@ export const appConfig: ApplicationConfig = {
     providePrimeNG({
       theme: {
         preset: Aura,
-        options: {
-          colors: {
-            primary: '#fff',
-          }
-        }
       },
     }),
   ],

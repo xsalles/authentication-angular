@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(to bottom, #FB5353, #F30606);
-  height: 100%;
+  height: 100vh;
   width: 50vw;
 
   img {
@@ -11,7 +11,7 @@
     height: auto;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     display: none;
     
   }
