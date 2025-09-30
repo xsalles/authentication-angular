@@ -10,6 +10,6 @@ import { InputTextModule } from 'primeng/inputtext';
 })
 export class InputComponent {
   @Input() value: string = '';
-  @Input() label: string = '';
-  @Input() type: string = '';
+  @Input({ required: true }) label: string = '';
+  @Input({ required: true }) type: string = '';
 }

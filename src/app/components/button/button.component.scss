@@ -3,6 +3,8 @@
   color: #fff;
   border: none;
   transition: all ease-in-out 0.3s;
+  width: 100%;
+  padding-block: 16px;
 }
 
 :host ::ng-deep .p-button.p-component:hover {

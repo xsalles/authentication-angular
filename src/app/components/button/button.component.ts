@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 
 @Component({
-  selector: 'app-button',
+  selector: 'component-button',
   imports: [ButtonModule],
   templateUrl: './button.component.html',
   styleUrl: './button.component.scss',
