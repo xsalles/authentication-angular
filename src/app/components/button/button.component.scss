@@ -1,0 +1,12 @@
+:host ::ng-deep .p-button.p-component {
+  background-color: #F41313;
+  color: #fff;
+  border: none;
+  transition: all ease-in-out 0.3s;
+}
+
+:host ::ng-deep .p-button.p-component:hover {
+  background-color: #F45050;
+  color: #fff;
+  border: none;
+}
