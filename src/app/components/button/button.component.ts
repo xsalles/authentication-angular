@@ -9,6 +9,7 @@ import { ButtonModule } from 'primeng/button';
 })
 export class ButtonComponent {
   @Input({ required: true }) label: string = 'Click me';
+  @Input() disabled: boolean = false;
   @Output() buttonClick = new EventEmitter<void>();
 
   handleClick() {

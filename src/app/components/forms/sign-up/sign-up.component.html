@@ -1,6 +1,6 @@
-<form class="form">
-    <component-input [label]="'Nome'" [type]="'text'" />
-    <component-input [label]="'Email'" [type]="'email'" />
-    <component-input [label]="'Senha'" [type]="'password'" />
-    <component-button [label]="'Registrar'" />
+<form class="form" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <component-input [label]="'Nome'" [type]="'text'" />
+  <component-input [label]="'Email'" [type]="'email'" />
+  <component-input [label]="'Senha'" [type]="'password'" />
+  <component-button [label]="'Registrar'" [disabled]="!registerForm.valid" />
 </form>
