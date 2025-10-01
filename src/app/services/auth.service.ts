@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { enviroment } from '../../constants/enviroment';
-import { User } from '../interfaces/auth/index';
+import { RegisterForm } from '../interfaces/auth/index';
 
 @Injectable({
   providedIn: 'root',
@@ -9,7 +9,7 @@ import { User } from '../interfaces/auth/index';
 export class AuthService {
   private readonly http = inject(HttpClient);
 
-  register(req: User) {
+  register(req: RegisterForm) {
     return this.http
       .post(`${enviroment.apiUrl}/register`, req)
       .subscribe((data) => {

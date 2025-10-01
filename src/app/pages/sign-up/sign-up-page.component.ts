@@ -3,7 +3,7 @@ import { CompanyComponent } from '../../template/company/company.component';
 import { SignUpComponent } from '../../components/forms/sign-up/sign-up.component';
 import { RouterLinkActive, RouterLink } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
-import { User } from '../../interfaces/auth';
+import { RegisterForm } from '../../interfaces/auth';
 
 @Component({
   selector: 'page-sign-up',
@@ -12,7 +12,7 @@ import { User } from '../../interfaces/auth';
   styleUrl: './sign-up-page.component.scss',
 })
 export class SignUpPageComponent {
-  user: User = { email: '', password: '' };
+  user: RegisterForm = { name: '', email: '', password: '' };
 
   private authService = inject(AuthService);
 
